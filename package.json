@@ -1,0 +1,21 @@
+{
+    "name": "midnight-z",
+    "displayName": "midnight-z",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Midnight-Z",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Midnight-Z-color-theme.json"
+            }
+        ]
+    }
+}
