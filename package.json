@@ -2,7 +2,7 @@
 	"name": "midnight-z",
 	"displayName": "Midnight-Z",
 	"description": "Dark theme thats still in the works",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "ZachGreen",
 	"engines": {
 		"vscode": "^1.58.0"
