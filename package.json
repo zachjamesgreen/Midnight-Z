@@ -1,8 +1,8 @@
 {
     "name": "midnight-z",
-    "displayName": "midnight-z",
-    "description": "",
-    "version": "0.0.1",
+    "displayName": "Midnight-Z",
+    "description": "Dark theme thats still in the works",
+    "version": "0.1",
     "engines": {
         "vscode": "^1.58.0"
     },
