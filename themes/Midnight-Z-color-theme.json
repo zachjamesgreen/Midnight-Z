@@ -14,6 +14,24 @@
     }
   },
   "tokenColors": [
+    //-----
+    //RUBY
+    //-----
+    {
+			"name": "ruby block var",
+			"scope": "constant.language.symbol.hashkey.ruby",
+			"settings": {
+				"foreground": "#42B3FF"
+			}
+		},
+    {
+			"name": "ruby block var",
+			"scope": "variable.other.block.ruby, variable.other.ruby",
+			"settings": {
+        "fontStyle": "italic",
+				"foreground": "#71a9b6"
+			}
+		},
 		{
 			"name": "ruby new keyword",
 			"scope": "keyword.other.special-method.ruby",
@@ -26,6 +44,23 @@
 			"scope": "punctuation.definition.variable.ruby, variable.other.readwrite.instance.ruby, variable.other.readwrite.class.ruby",
 			"settings": {
 				"foreground": "#9EA049"
+			}
+		},
+    {
+			"name": "ERB tags",
+			"scope": "punctuation.section.embedded.begin.erb, punctuation.section.embedded.end.erb",
+			"settings": {
+				"foreground": "#9EA049"
+			}
+		},
+    //-----
+    // JAVASCRIPT
+    //-----
+    {
+			"name": "double quoted jsx string",
+			"scope": "punctuation.terminator.statement.js, punctuation.definition.section.case-statement.js",
+			"settings": {
+				"foreground": "#42B3FF"
 			}
 		},
 		{
@@ -63,6 +98,17 @@
 				"foreground": "#BDBDBD"
 			}
 		},
+    //-----
+    // YAML
+    //-----
+    {
+			"name": "yaml merge",
+			"scope": "constant.language.merge.yaml",
+			"settings": {
+				"foreground": "#9EA049"
+			}
+		},
+    //-----
     {
       "name": "unison punctuation",
       "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",

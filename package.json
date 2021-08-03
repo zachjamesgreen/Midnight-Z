@@ -1,22 +1,31 @@
 {
-    "name": "midnight-z",
-    "displayName": "Midnight-Z",
-    "description": "Dark theme thats still in the works",
-    "version": "0.1.0",
-    "publisher": "ZachGreen",
-    "engines": {
-        "vscode": "^1.58.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Midnight-Z",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Midnight-Z-color-theme.json"
-            }
-        ]
-    }
+	"name": "midnight-z",
+	"displayName": "Midnight-Z",
+	"description": "Dark theme thats still in the works",
+	"version": "0.1.0",
+	"publisher": "ZachGreen",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:zachjamesgreen/Midnight-Z.git"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Midnight-Z",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Midnight-Z-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "7b647196-1996-4c56-8da2-9a4275a3d5b0",
+		"publisherDisplayName": "Zach Green",
+		"publisherId": "8ac0a461-aba0-403e-8ba4-fccc8c2525ce"
+	}
 }
